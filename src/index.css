@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu > li > a{
+    color: #4C5671;
+    font-size: 0.9rem;
+    font-family: "Inter", sans-serif;;
+    font-weight: 500;
+}
+#app{
+    background-color: #f9f9f9;
+}
+a{
+    outline: none;
+}
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #f6f9fb;
+}
+.info{
+    color: #00baff !important;
+    font-size: 1.25rem;
+}
+.edbtn{
+    padding: 0.3rem 0.6rem;
+    background-color: #e4e6ef;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-width: 1px;
+}
+.edit{
+    color: #00baff !important;
+    transition: all 1.5s ease-in-out;
+}
+.edit:hover{
+    background-color: #0095cc !important;
+    border-color: #0095cc !important;
+    color: #ffffff !important;
+    transition: all 1.5s ease-in-out;
+}
+.delete{
+    color: #ff562f !important;
+    transition: all 1.5s ease-in-out;
+}
+.delete:hover{
+    background-color: #fb2f00 !important;
+    border-color: #fb2f00 !important;
+    color: #ffffff !important;
+    transition: all 1.5s ease-in-out;
+}
